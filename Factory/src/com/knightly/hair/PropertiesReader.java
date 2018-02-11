@@ -1,3 +1,5 @@
+package com.knightly.hair;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Enumeration;
@@ -16,7 +18,7 @@ public class PropertiesReader {
         Properties properties = new Properties();
         Map<String,String> map = new HashMap<>();
         try {
-            InputStream in = getClass().getResourceAsStream("type.properties");
+            InputStream in = getClass().getResourceAsStream("/type.properties");
             properties.load(in);
             Enumeration en = properties.propertyNames();
             while (en.hasMoreElements()){

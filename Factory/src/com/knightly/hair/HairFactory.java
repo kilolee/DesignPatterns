@@ -1,3 +1,5 @@
+package com.knightly.hair;
+
 import java.util.Map;
 
 /**

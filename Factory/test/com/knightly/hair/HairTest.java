@@ -1,3 +1,8 @@
+package com.knightly.hair;
+
+import com.knightly.hair.HairFactory;
+import com.knightly.hair.HairInterface;
+import com.knightly.hair.LeftHair;
 import org.junit.Test;
 
 /**
@@ -14,7 +19,7 @@ public class HairTest {
     @Test
     public void className(){
         HairFactory factory = new HairFactory();
-        HairInterface left = factory.getHairByClassName("LeftHair");
+        HairInterface left = factory.getHairByClassName("com.knightly.hair.LeftHair");
         left.draw();
     }
 

@@ -1,3 +1,5 @@
+package com.knightly.hair;
+
 /**
  * 发型接口
  * Created by knightly on 2018/2/10.

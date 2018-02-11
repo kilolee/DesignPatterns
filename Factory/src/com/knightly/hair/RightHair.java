@@ -1,3 +1,7 @@
+package com.knightly.hair;
+
+import com.knightly.hair.HairInterface;
+
 /**
  * 右偏分发型
  * Created by knightly on 2018/2/10.
