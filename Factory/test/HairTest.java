@@ -21,7 +21,7 @@ public class HairTest {
     @Test
     public void classkey(){
         HairFactory factory = new HairFactory();
-        HairInterface left = factory.getHairByClassKey("left");
+        HairInterface left = factory.getHairByClassKey("in");
         left.draw();
     }
 }
