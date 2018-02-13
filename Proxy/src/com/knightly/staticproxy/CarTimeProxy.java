@@ -1,3 +1,5 @@
+package com.knightly.staticproxy;
+
 /**
  * Created by knightly on 2018/2/12.
  */

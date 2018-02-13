@@ -1,3 +1,5 @@
+package com.knightly.staticproxy;
+
 import java.util.Random;
 
 /**

@@ -1,3 +1,6 @@
+import com.knightly.staticproxy.Car;
+import com.knightly.staticproxy.CarLogProxy;
+import com.knightly.staticproxy.CarTimeProxy;
 import org.junit.Test;
 
 /**

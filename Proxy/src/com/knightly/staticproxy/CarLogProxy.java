@@ -1,3 +1,5 @@
+package com.knightly.staticproxy;
+
 /**
  * 记录日志
  * Created by knightly on 2018/2/12.
