@@ -17,7 +17,7 @@ public class ConcreteWeatherSubject extends Observable {
 
     public void setContent(String content) {
         this.content = content;
-        //使用Java的Observer模式时，必不可少，用于更精确的控制
+        //使用Java的Observer模式时，必不可少，用于更精确的触发控制
         this.setChanged();
         //进行通知，推的方式
         this.notifyObservers(content);
