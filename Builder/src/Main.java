@@ -8,10 +8,10 @@ public class Main {
             System.exit(0);
         }
         if (args[0].equals("plain")) {
-            TextBuilder textBulider = new TextBuilder();
-            Director director = new Director(textBulider);
+            TextBuilder textBuilder = new TextBuilder();
+            Director director = new Director(textBuilder);
             director.construct();
-            String result = textBulider.getResult();
+            String result = textBuilder.getResult();
             System.out.println(result);
         } else if (args[0].equals("html")) {
             HTMLBuilder htmlBuilder = new HTMLBuilder();
