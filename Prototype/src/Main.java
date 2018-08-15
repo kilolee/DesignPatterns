@@ -24,5 +24,8 @@ public class Main {
         p2.use("Hello, world.");
         Product p3 = manager.create("slash box");
         p3.use("Hello, world.");
+        System.out.println(upen == p1);
+        System.out.println(upen.equals(p1));
+        System.out.println(upen.getClass() == p1.getClass());
     }
 }

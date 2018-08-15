@@ -34,10 +34,21 @@ public class MessageBox implements Product {
     public Product createClone() {
         Product p = null;
         try {
-            p = (Product) clone();
+            p = clone();
         } catch (CloneNotSupportedException e) {
             e.printStackTrace();
         }
         return p;
+    }
+
+    /**
+     * 重写clone方法
+     *
+     * @return
+     * @throws CloneNotSupportedException
+     */
+    @Override
+    protected Product clone() throws CloneNotSupportedException {
+        return (Product) super.clone();
     }
 }
