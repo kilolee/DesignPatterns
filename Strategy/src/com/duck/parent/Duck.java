@@ -1,6 +1,6 @@
-package com.kilo.parent;
+package com.duck.parent;
 
-import com.kilo.fly.FlyStrategy;
+import com.duck.fly.FlyStrategy;
 
 /**
  * 超类，所有的鸭子都要继承此类

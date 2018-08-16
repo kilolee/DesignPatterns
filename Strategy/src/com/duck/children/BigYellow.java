@@ -1,7 +1,7 @@
-package com.kilo.children;
+package com.duck.children;
 
-import com.kilo.fly.impl.FlyWithNoWay;
-import com.kilo.parent.Duck;
+import com.duck.fly.impl.FlyWithNoWay;
+import com.duck.parent.Duck;
 
 /**
  * Created by knightly on 2018/3/10.

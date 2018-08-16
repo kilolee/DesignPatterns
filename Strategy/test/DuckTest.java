@@ -1,6 +1,5 @@
-import com.kilo.children.*;
-import com.kilo.parent.Duck;
-import org.junit.Test;
+import com.duck.children.*;
+import com.duck.parent.Duck;
 
 /**
  * Created by kilo on 2018/3/10.

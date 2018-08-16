@@ -1,4 +1,4 @@
-package com.kilo.fly;
+package com.duck.fly;
 
 /**
  * 策略接口，实现鸭子的飞行行为

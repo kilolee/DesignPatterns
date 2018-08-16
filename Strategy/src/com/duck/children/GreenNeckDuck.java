@@ -1,7 +1,7 @@
-package com.kilo.children;
+package com.duck.children;
 
-import com.kilo.fly.impl.FlyWithWin;
-import com.kilo.parent.Duck;
+import com.duck.fly.impl.FlyWithWin;
+import com.duck.parent.Duck;
 
 /**
  * Created by kilo on 2018/3/10.

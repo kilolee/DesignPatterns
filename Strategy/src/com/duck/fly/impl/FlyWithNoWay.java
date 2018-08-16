@@ -1,6 +1,6 @@
-package com.kilo.fly.impl;
+package com.duck.fly.impl;
 
-import com.kilo.fly.FlyStrategy;
+import com.duck.fly.FlyStrategy;
 
 /**
  * Created by kilo on 2018/3/10.
