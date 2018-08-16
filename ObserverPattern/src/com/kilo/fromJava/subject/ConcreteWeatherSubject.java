@@ -1,7 +1,6 @@
 package com.kilo.fromJava.subject;
 
 import java.util.Observable;
-import java.util.Observer;
 
 /**
  * 天气目标的具体实现类

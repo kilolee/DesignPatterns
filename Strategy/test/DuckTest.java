@@ -1,4 +1,4 @@
-import com.duck.children.*;
+import com.duck.children.SpaceDuck;
 import com.duck.parent.Duck;
 
 /**

@@ -6,7 +6,7 @@ import com.duck.parent.Duck;
 /**
  * Created by kilo on 2018/3/10.
  */
-public class RubberDuck extends Duck{
+public class RubberDuck extends Duck {
     public RubberDuck() {
         super();
         super.setFlyStrategy(new FlyWithNoWay());
