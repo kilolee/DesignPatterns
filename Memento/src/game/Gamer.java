@@ -8,6 +8,7 @@ import java.util.Random;
 /**
  * Created by kilo on 2018/8/24.
  * 表示游戏主人公的类，它会生成Memento的实例
+ * 负责生成Memento角色、使用接收到的Memento角色恢复自己的状态
  */
 public class Gamer {
     private int money;

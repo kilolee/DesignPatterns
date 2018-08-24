@@ -17,6 +17,10 @@ public class Memento {
         this.fruits = new ArrayList();
     }
 
+    /**
+     * 这是一个窄接口，此方法可以被包外部的Main类调用
+     * @return
+     */
     public int getMoney() {
         return money;
     }

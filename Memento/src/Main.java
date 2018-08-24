@@ -5,6 +5,7 @@ import game.Memento;
  * Created by kilo on 2018/8/24.
  * 进行游戏的类
  * 事先保存Memento的实例，之后根据需要恢复Gamer的状态
+ * 决定何时拍照，何时撤销以及保存Memento角色
  */
 public class Main {
     public static void main(String[] args) {
