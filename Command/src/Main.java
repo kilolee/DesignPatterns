@@ -32,7 +32,7 @@ public class Main extends JFrame implements ActionListener, MouseMotionListener,
         getContentPane().add(mainBox);
 
         pack();
-        show();
+        setVisible(true);
     }
 
 
